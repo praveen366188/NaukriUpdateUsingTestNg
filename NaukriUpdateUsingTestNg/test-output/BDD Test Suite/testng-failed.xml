@@ -6,15 +6,4 @@
       <class name="naukriRunnerFiles.CommonRunnerFile"/>
     </classes>
   </test> <!-- FREE CRM Test -->
-  <test name="FREE CRM Test(failed)" parallel="tests">
-    <classes>
-      <class name="naukriRunnerFiles.CommonRunnerFile">
-        <methods>
-          <include name="feature" invocation-numbers="0"/>
-          <include name="setUpClass"/>
-          <include name="tearDownClass"/>
-        </methods>
-      </class> <!-- naukriRunnerFiles.CommonRunnerFile -->
-    </classes>
-  </test> <!-- FREE CRM Test(failed) -->
 </suite> <!-- Failed suite [BDD Test Suite] -->
