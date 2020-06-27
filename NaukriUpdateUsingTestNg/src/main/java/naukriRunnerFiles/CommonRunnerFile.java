@@ -9,7 +9,7 @@ import cucumber.api.testng.CucumberFeatureWrapper;
 import cucumber.api.testng.TestNGCucumberRunner;
 
 
-
+ 
 @CucumberOptions(
         features = "C:\\Users\\user\\Desktop\\pravi\\NaukriUpdate\\src\\main\\java\\naukriFeatures\\naukriLogin.feature",
         glue = {"stepDefenition"},
