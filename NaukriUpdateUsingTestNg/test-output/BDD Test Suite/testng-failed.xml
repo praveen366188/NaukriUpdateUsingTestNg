@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" configfailurepolicy="continue" guice-stage="DEVELOPMENT" name="Failed suite [BDD Test Suite]" parallel="tests">
+  <test name="FREE CRM Test">
+    <classes>
+      <class name="naukriRunnerFiles.CommonRunnerFile"/>
+    </classes>
+  </test> <!-- FREE CRM Test -->
+  <test name="FREE CRM Test(failed)" parallel="tests">
+    <classes>
+      <class name="naukriRunnerFiles.CommonRunnerFile">
+        <methods>
+          <include name="feature" invocation-numbers="0"/>
+          <include name="setUpClass"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- naukriRunnerFiles.CommonRunnerFile -->
+    </classes>
+  </test> <!-- FREE CRM Test(failed) -->
+</suite> <!-- Failed suite [BDD Test Suite] -->

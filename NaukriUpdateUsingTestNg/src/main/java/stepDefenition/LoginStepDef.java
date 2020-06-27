@@ -4,7 +4,6 @@ import java.util.Arrays;
 
 import javax.xml.xpath.XPath;
 
-import org.junit.After;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
@@ -12,6 +11,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
+
 import static org.openqa.selenium.support.ui.ExpectedConditions.presenceOfElementLocated;
 import java.time.Duration;
 
@@ -19,7 +20,6 @@ import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
-import junit.framework.Assert;
 
 public class LoginStepDef {
 	WebDriver driver;
