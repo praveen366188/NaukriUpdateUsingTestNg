@@ -10,5 +10,5 @@ Scenario Outline: Login using ID and Password
 	
 	Examples: 
 		|Name|UserName|password|
-#		|Praveenkumar Sannasi Elangovan|praveen366188@gmail.com|password@1|
+		|Praveenkumar Sannasi Elangovan|praveen366188@gmail.com|password@1|
 		|Vaibhav Agarwal|agarwal27vaibhav@gmail.com|Jagdamba$27|

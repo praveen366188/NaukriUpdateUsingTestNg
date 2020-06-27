@@ -61,7 +61,7 @@ public class LoginStepDef {
 
 	@Then("^Verifying Naukri Profile page of \"([^\"]*)\"$")
 	public void verifying_Naukri_Profile_page_of(String uname) throws Throwable {
-		Thread.sleep(2000);
+		Thread.sleep(10000);
 		Assert.assertEquals(uname,
 				driver.findElement(By.xpath("//div[contains(@class,'ser-name roboto-bold-text')]")).getText().trim());
 	}
@@ -69,7 +69,7 @@ public class LoginStepDef {
 	@When("^update the naukri prfile resume headline$")
 	public void updateNaukriProfile() throws Throwable {
 		driver.findElement(By.xpath("//div[contains(@class,'ser-name roboto-bold-text')]")).click();
-		Thread.sleep(2000);
+		Thread.sleep(5000);
 		JavascriptExecutor jse = (JavascriptExecutor) driver;
 		jse.executeScript("window.scrollBy(0,250)");
 
